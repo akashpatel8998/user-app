@@ -1,0 +1,180 @@
+.mainSection{
+  background-image: linear-gradient(151.06deg, #673a75 17.8%, #1B1229 145.05%), url('../../static/assets/sectionBg.png');
+  background-size: 100% 100%;
+  mix-blend-mode: normal;
+  padding-top: 100px;
+}
+
+.redirectLink{
+  color:  #FA7133;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.redirectLink:hover{
+  color:  #ff9a6b;
+}
+.redirectLink div {
+  padding-top: 25px;
+}
+
+.documentImg{
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.innerMainSection{
+  padding: 60px 30px;
+}
+
+.nav-link{
+  color: #838383!important;
+}
+
+.rightMainSection{
+  padding: 0px 35px!important;
+}
+
+.startBtn{
+  background-color: #572A84;
+  color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 33px;
+  width: fit-content;
+  transition: 300ms;
+  cursor: pointer;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.startBtn:hover{
+  background-color: #D7DFE1;
+  outline: 1px solid #572A84;
+  color: #572A84;
+  width: fit-content;
+  transition: 300ms;
+  cursor: pointer;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.containSection{
+  display: grid;
+  place-items: center;
+}
+
+.headingSection{
+  font-size: 40px;
+  font-weight: 800;
+  opacity: 0.85;
+  padding-bottom: 15px;
+}
+
+.heading{
+  font-weight: 800;
+}
+
+.bottomSection{
+  background: linear-gradient(90deg, rgba(215, 223, 225, 0) 2.44%, #D7DFE1 5.03%, #D7DFE1 91.78%, rgba(215, 223, 225, 0) 95.23%);
+}
+
+.rightCakeImg{
+  height: 100%;
+    width: auto;
+}
+
+.navBarSection{
+  background: #FFFFFF;
+  border-radius: 10px;
+  width: fit-content;
+  margin: auto;
+  font-weight: 700;
+  color: #838383;
+  padding: 10px 0px;
+}
+
+.nav-item{
+  padding: 0px 15px;
+  cursor: pointer;
+}
+
+.activeNav{
+  border-radius: 10px;
+  background: #F1F0FE;
+  font-weight: 800 !important;
+  color: #572A84 !important;
+}
+
+.rightIcon{
+  width: 15px;
+  height: auto;
+}
+
+.rightIconSection{
+  padding-left: 5px;
+}
+
+
+.personImg {
+  width: 60px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.profileImage {
+  width: 100%;
+}
+
+.personDetailBoard td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.personDetailBoard th {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.action_img {
+  width: 30px;
+  box-shadow: 0px 3px 6px #00000029;
+  cursor: pointer;
+}
+
+.addProductBtn {
+  border: 1px solid blue;
+  text-decoration: none;
+  color: blue;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.headerSection {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.SweetSpotText{
+  color: #572A84;
+}
+
+.loaderCss {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+}
+
+.error_msg {
+  color: red;
+  font-size: 12px;
+}
+
+.noDataFound{
+  width: 300px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
